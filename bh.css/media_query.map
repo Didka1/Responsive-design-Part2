@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../bh.scss/media_query.css",
+	"sources": [
+		"../bh.scss/media_query.scss"
+	],
+	"sourcesContent": [
+		"//media query values\r\n$small: 43.813em; //701px\r\n$smallest: 43.750em;//700px\r\n$big: 75.000em; //1200px\r\n//media query mixin\r\n// if/else\r\n@mixin mq($breakpoint: $small){\r\n  @if $breakpoint == $small {\r\n    @media (min-width: $small) {\r\n      @content;\r\n    }\r\n  }\r\n     @else if $breakpoint == $smallest{\r\n    @media (max-width: $smallest) {\r\n      @content;\r\n    }\r\n  }\r\n  @else {\r\n    @media (min-width: $big) {\r\n      @content;\r\n    }\r\n  }\r\n} "
+	],
+	"mappings": "",
+	"names": []
+}

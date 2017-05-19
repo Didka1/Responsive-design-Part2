@@ -1,0 +1,104 @@
+/*-- this code is from http://refills.bourbon.io/ - Components - Search bar */
+form.search-bar {
+  ///////////////////////////////////////////////////////////////////////////////////
+  $base-spacing: 1.5em !default;
+  $base-border-color: $fifth-neutral!default;
+  $base-line-height: 1.5em !default;
+  //////////////////////////////////////////////////////////////////////////////////
+
+  $search-bar-border-color: $base-border-color;
+  $search-bar-border: 1px solid $search-bar-border-color;
+  $search-bar-background: lighten($search-bar-border-color, 10%);
+
+  position: relative;
+
+  input[type=search] { 
+    //appearance: none;
+    background-color: $fifth-neutral;
+    border: 1px solid $base-border-color;
+    box-sizing: border-box;
+    display: block;
+    font-size: 1em;
+    font-style: italic;
+    margin: 0;
+    margin-top: 1em;  
+    padding: ($base-spacing / 3) ($base-spacing / 3);
+    position: relative;
+    transition: border-color;
+    width: 100%;
+  }
+
+  button[type=submit] {
+    @include position(absolute, 0 0 0 null);
+    outline: none;
+    padding: 5px 10px;
+
+    img {
+      height: 12px;
+      width: 12px;    
+      opacity: 0.7;
+    }
+  }
+}
+/* end of Search bar  */
+/*this code is from http://refills.bourbon.io/ - Components - Hover Tile Animation*/
+ .hover-tile-outer {
+  $base-border-color: $second-color !default;
+  $base-line-height: 1.5em !default;
+  $medium-screen: 40em !default;
+  $hover-tile-height: 10em;
+  $base-spacing: 1.5em;
+
+  background: url("http://images.freeimages.com/images/previews/5f1/another-sky-1541404.jpg");
+  background-color: $first-color;
+  background-position: top;
+  background-size: cover;
+  border: 2px solid $base-border-color;
+  cursor: pointer;
+  height: $hover-tile-height;
+  margin-bottom: $base-line-height;
+
+  @include media($medium-screen) {
+    width: 100%;
+  }
+
+  .hover-tile-container {
+    height: $hover-tile-height;
+    overflow: hidden;
+  }
+
+  .hover-tile-container:hover > .hover-tile {
+    transform: translate(0, -100%);
+  }
+
+  .hover-tile {
+    background: inherit;
+    color: $second-color;
+    height: inherit;
+    overflow: hidden;
+    padding: $base-spacing;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .hover-tile-hidden {
+    background: transparentize(#000, 0.5);
+
+    p {
+      color: transparentize($first-color, 0.1);
+      line-height: $base-line-height;
+      text-align: center;
+    }
+
+    h4 {
+      margin: 0 0 0.5em 0;
+    }
+  }
+}
+       
+        
+        
+/*end of Hover Tile Animation*/
+
+
+
+

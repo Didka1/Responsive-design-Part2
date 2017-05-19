@@ -1,0 +1,1078 @@
+/*!normalize.css v2.1.3|MIT License|git.io/normalize*/
+/* line 10, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/* line 26, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+/* line 34, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/* line 41, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+[hidden],
+template {
+  display: none;
+}
+
+/* line 51, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+}
+
+/* line 57, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+body {
+  margin: 0;
+}
+
+/* line 64, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+a {
+  background: transparent;
+}
+
+/* line 69, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+a:focus {
+  outline: thin dotted;
+}
+
+/* line 74, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+a:active,
+a:hover {
+  outline: 0;
+}
+
+/* line 83, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* line 89, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/* line 94, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 100, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+dfn {
+  font-style: italic;
+}
+
+/* line 105, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+hr {
+  box-sizing: content-box;
+  height: 0;
+}
+
+/* line 111, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+mark {
+  background: #FF0;
+  color: #000;
+}
+
+/* line 117, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+/* line 126, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+pre {
+  white-space: pre-wrap;
+}
+
+/* line 131, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+q {
+  quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+/* line 136, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+small {
+  font-size: 80%;
+}
+
+/* line 141, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 148, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+sup {
+  top: -0.5em;
+}
+
+/* line 151, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 158, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+img {
+  border: 0;
+}
+
+/* line 163, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* line 170, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+figure {
+  margin: 0;
+}
+
+/* line 177, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+fieldset {
+  border: 1px solid #C0C0C0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/* line 185, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+legend {
+  border: 0;
+  padding: 0;
+}
+
+/* line 193, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+/* line 204, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+button,
+input {
+  line-height: normal;
+}
+
+/* line 213, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+button,
+select {
+  text-transform: none;
+}
+
+/* line 223, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 232, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+button[disabled],
+html input[disabled] {
+  cursor: default;
+}
+
+/* line 239, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* line 248, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+/* line 255, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/* line 261, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/* line 269, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 277, C:/Program Files (x86)/Scout-App/scout-files/mixins/_normalize.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 4, C:/Program Files (x86)/Scout-App/bower_components/neat/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 9, C:/Program Files (x86)/Scout-App/bower_components/neat/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+/* Border box declaration */
+/*main styles */
+/* line 4, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mainstylenav.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 8, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mainstylenav.scss */
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* line 15, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mainstylenav.scss */
+body {
+  font-size: 100%;
+  font-family: 'Josefin Slab', serif;
+  margin: 0%;
+}
+
+/* line 21, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mainstylenav.scss */
+body, p, h1, h2, h3, h4, li {
+  font-size-adjust: 0.4;
+}
+
+/* line 24, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mainstylenav.scss */
+.wrapper {
+  width: 98%;
+  max-width: 1200px;
+  margin: 0% auto;
+  float: none;
+  background-color: #faf0eb;
+}
+
+/*navigation */
+/* 2 levels nesting */
+/* line 33, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mainstylenav.scss */
+ul.topnav {
+  width: 100%;
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  overflow: hidden;
+  background-color: #b1d5e7;
+  border-top-left-radius: 3.125em;
+  border-top-right-radius: 3.125em;
+}
+
+/* line 42, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mainstylenav.scss */
+ul.topnav li {
+  float: left;
+  margin: 0.8em 1em 0.8em 1em;
+}
+
+/* line 47, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mainstylenav.scss */
+ul.topnav li a {
+  display: inline-block;
+  color: #060f14;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 1.25em;
+  background-color: #f0d1c2;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+  padding: 0.5em;
+  margin: 0.3em 0.3em 0.3em 1em;
+  border: 0.063em solid #f0d1c2;
+  border-radius: 3.125em;
+}
+
+/* line 63, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mainstylenav.scss */
+ul.topnav li a:hover {
+  background-color: #faf0eb;
+  border: 0.063em solid #faf0eb;
+  border-radius: 3.125em;
+}
+
+/* line 72, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mainstylenav.scss */
+ul.topnav li.icon {
+  display: none;
+}
+
+/* grid styles*/
+/* line 4, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 11, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+.orange,
+.green,
+.blue {
+  float: left;
+  min-height: 1px;
+  width: 98%;
+}
+
+/* line 18, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+.standartcol {
+  float: left;
+  min-height: 1px;
+  width: 100%;
+}
+
+/* using built-in Sass functions */
+/*nesting */
+/* line 25, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+[class*='col-'] {
+  float: left;
+  margin: 1% 1% 1% 1%;
+  min-height: 1px;
+  color: #060f14;
+  border: 0.063em solid #f5e0d6;
+  border-radius: 1.250em;
+  background-color: rgba(240, 209, 194, 0.5);
+}
+
+/* line 36, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+.col-6 {
+  width: 14.6%;
+}
+
+/* line 40, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+.col-2 {
+  width: 48%;
+}
+
+/* line 44, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+.col-1 {
+  padding-top: 0.625em;
+  width: 98%;
+}
+
+/* line 49, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+.col-3 {
+  width: 31%;
+}
+
+/* grid about page*/
+/*nesting */
+/* line 54, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+[class*='aboutcol-'] {
+  float: left;
+  margin: 1% 1% 1% 2%;
+  padding: 5%;
+  min-height: 1px;
+  border: 0.063em solid;
+  border-color: #f5e0d6;
+  border-radius: 1.250em;
+}
+
+/* line 65, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+.aboutcol-2 {
+  width: 25%;
+}
+
+/* line 69, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+.aboutcol-1 {
+  width: 40%;
+}
+
+/* grid contacts page */
+/*nesting */
+/* line 74, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+[class*='contactscol-'] {
+  float: left;
+  margin: 2% 0% 5% 1%;
+  padding: 5%;
+  min-height: 1px;
+  border: 0.063em solid #296989;
+  border-radius: 1.250em;
+}
+
+/* line 86, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+.contactscol-4 {
+  width: 23%;
+  border-top-width: 0.8em;
+  border-right-width: 1em;
+  border-top-color: #b1d5e7;
+  border-right-color: #6a808b;
+  border-left-color: #296989;
+}
+
+/* media queries*/
+@media (min-width: 43.813em) and (max-width: 75em) {
+  /* line 95, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  .col-2,
+  .col-6,
+  .col-1,
+  .col-3 {
+    width: 100%;
+  }
+  /* line 101, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  .aboutcol-2,
+  .aboutcol-1,
+  .contactscol-4 {
+    width: 97%;
+  }
+}
+
+@media (max-width: 43.75em) {
+  /* line 110, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  [class*="col-"] {
+    width: 92%;
+  }
+}
+
+/* media queries main image, nav, h1 and some text*/
+@media (max-width: 43.75em) {
+  /* clearing hack */
+  /* line 120, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  .row:before,
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* line 126, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  header {
+    background: url(http://happy-live.free.bg/spheres710.jpg) no-repeat;
+    width: 100%;
+    height: 139px;
+    margin-bottom: 1em;
+  }
+  /* line 134, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  .typescalingsmall, .advisetext,
+  .freshtext, p.talkingtext, #edtext, h4 {
+    font-size: 1em;
+    line-height: 1.6;
+  }
+  /* line 138, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  .typescalingsmall-h, h2, h3 {
+    font-size: 1.3em;
+    line-height: 1.2;
+  }
+  /* nesting*/
+  /* line 143, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  h1 a {
+    font-size: 0.7em;
+    line-height: 1.3;
+    text-decoration: none;
+    color: #d6855c;
+    background-color: #b1d5e7;
+    padding: 0.3em 0.5em 0.5em 0.5em;
+    margin: 0.3em;
+    border: 0.063em solid #b1d5e7;
+    border-radius: 1em;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+  }
+  /* line 157, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  h1 a:hover {
+    color: #d6855c;
+  }
+  /* line 162, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  .advisetext,
+  .freshtext {
+    text-align: left;
+    width: 40%;
+  }
+  /* line 168, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  p.talkingtext {
+    width: 40%;
+    padding: 0px 3px 3px 2px;
+    margin: 0%;
+    text-align: left;
+  }
+  /* line 175, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  .edpic {
+    margin-left: 20%;
+  }
+  /* line 178, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  #edtext {
+    float: right;
+    text-align: justify;
+    width: 60%;
+    margin: 1%;
+  }
+}
+
+@media (min-width: 75em) {
+  /* line 196, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  header {
+    background: url(http://happy-live.free.bg/spheres1.jpg) no-repeat;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 1em;
+  }
+  /* line 204, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  .typescalingbig, .advisetext,
+  .freshtext, p.talkingtext, #edtext, h4, h1 a {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+  /* line 208, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  .typescalingbig-h, h1 a, h2, h3 {
+    font-size: 1.6em;
+    line-height: 1.3;
+  }
+  /* line 212, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  h1 a {
+    text-decoration: none;
+    color: #d6855c;
+    background-color: #b1d5e7;
+    padding: 0.3em 0.5em 0.5em 0.5em;
+    margin: 1.5em;
+    border: 0.063em solid #b1d5e7;
+    border-radius: 1em;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+  }
+  /* line 225, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  h1 a:hover {
+    color: #d6855c;
+  }
+  /* line 229, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  .advisetext,
+  .freshtext {
+    text-align: left;
+    width: 50%;
+  }
+  /* line 235, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  p.talkingtext {
+    width: 100%;
+    padding: 5%;
+    margin: 1%;
+    text-align: left;
+  }
+  /* line 242, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_mediaquery.scss */
+  #edtext {
+    float: right;
+    text-align: left;
+    width: 80%;
+    margin: 1%;
+    padding: 5%;
+  }
+}
+
+@media (max-width: 43.75em) {
+  /* line 3, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_hamburgernav.scss */
+  ul.topnav li:not(:first-child) {
+    display: none;
+  }
+  /* line 4, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_hamburgernav.scss */
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media (max-width: 43.75em) {
+  /* line 12, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_hamburgernav.scss */
+  ul.topnav.responsive {
+    position: relative;
+  }
+  /* line 13, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_hamburgernav.scss */
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  /* line 18, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_hamburgernav.scss */
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  /* line 22, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_hamburgernav.scss */
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+/*text and pictures extra styles */
+/* line 3, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+h3 {
+  color: #060f14;
+  margin: 0.700em;
+}
+
+/* line 8, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+p {
+  text-align: justify;
+  margin: 0em 0.625em 0 0.625em;
+  padding: 5%;
+}
+
+/* line 13, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+.colorbox {
+  margin-top: 1%;
+  padding: 5%;
+}
+
+/* line 17, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+.colorloop {
+  border-radius: 0.8em;
+  list-style-type: none;
+  padding: 5%;
+  margin-top: 1%;
+}
+
+/* line 23, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+.advisetext,
+.freshtext {
+  float: right;
+  padding-left: 0%;
+  margin-left: 0%;
+}
+
+/* line 30, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+p.talkingtext {
+  display: inline;
+  float: right;
+}
+
+/* line 35, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+.continueLink {
+  color: #522914;
+}
+
+/* line 39, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+a:hover {
+  color: #296989;
+}
+
+/* nesting*/
+/* line 43, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+.quote {
+  margin: 30% 15% 15% 5%;
+  padding: 5%;
+  border: 0.063em solid #d6855c;
+  border-radius: 1.250em;
+  background-color: #d6855c;
+  -webkit-box-shadow: 40px 38px 84px 0px #d6855c;
+  -moz-box-shadow: 40px 38px 84px 0px #d6855c;
+  box-shadow: 40px 38px 84px 0px #d6855c;
+}
+
+/* line 54, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+.mexicanmask, .girraffes {
+  float: left;
+  padding-left: 5%;
+  width: auto;
+  max-width: 100%;
+}
+
+/* line 60, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+div img {
+  width: 100%;
+  max-width: 150px;
+  border-radius: 0.625em;
+  padding: 2%;
+}
+
+/* line 66, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+i {
+  margin-right: 3%;
+}
+
+/* h2/3/4 styles*/
+/* line 74, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+.headings-style, h2, h3, h4 {
+  color: #060f14;
+  font-family: 'Lemonada', cursive;
+  float: left;
+  width: 100%;
+}
+
+/* line 81, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+h1 a {
+  text-decoration: none;
+  color: #d6855c;
+  background-color: #b1d5e7;
+  padding: 0.3em 0.5em 0.5em 0.5em;
+  margin: 1.5em;
+  border: 0.063em solid #b1d5e7;
+  border-radius: 1em;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+/* line 94, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+h1 a:hover {
+  color: #d6855c;
+}
+
+/* line 98, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+header {
+  background: url(http://happy-live.free.bg/spheres1.jpg) no-repeat;
+  width: 100%;
+  height: 139px;
+  margin-bottom: 1em;
+}
+
+/* line 105, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+h2 {
+  border-top-left-radius: 3.125em;
+  border-top-right-radius: 3.125em;
+  padding: 0.625em 0.625em 0.625em 1.250em;
+}
+
+/* line 111, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+h3 {
+  font-size: 16px;
+  text-align: left;
+  margin: 1em;
+}
+
+/* line 118, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+h4 {
+  padding: 0.8em;
+  margin-bottom: 1em;
+  border: 0.063em solid #f0d1c2;
+  border-radius: 2em;
+  text-align: center;
+}
+
+/* line 131, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+.morecolor {
+  background: #f1d6c8;
+  padding: 5%;
+  border-top-left-radius: 1em;
+  border-top-right-radius: 1em;
+  border-bottom-left-radius: 1em;
+  border-bottom-right-radius: 1em;
+}
+
+/* line 138, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+.extracolor {
+  background: #e1d8d3;
+  padding: 5%;
+  border-top-left-radius: 2em;
+  border-top-right-radius: 2em;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+}
+
+/* mixin include */
+/* line 146, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+.gradientone {
+  background: -webkit-linear-gradient(left, #d6855c 0%, #faf0eb 49%);
+  /* Chrome 10+, Saf5.1+ */
+  background: -moz-linear-gradient(left, #d6855c 0%, #faf0eb 49%);
+  /* FF3.6+ */
+  background: -ms-linear-gradient(left, #d6855c 0%, #faf0eb 49%);
+  /* IE10 */
+  width: 100%;
+}
+
+/* line 149, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+.gradienttwo {
+  background: -webkit-linear-gradient(left, #d6855c 0%, #faf0eb 49%);
+  /* Chrome 10+, Saf5.1+ */
+  background: -moz-linear-gradient(left, #d6855c 0%, #faf0eb 49%);
+  /* FF3.6+ */
+  background: -ms-linear-gradient(left, #d6855c 0%, #faf0eb 49%);
+  /* IE10 */
+  width: 100%;
+}
+
+/* line 152, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+.gradientthree {
+  background: -webkit-linear-gradient(left, #522914 0%, #faf0eb 49%);
+  /* Chrome 10+, Saf5.1+ */
+  background: -moz-linear-gradient(left, #522914 0%, #faf0eb 49%);
+  /* FF3.6+ */
+  background: -ms-linear-gradient(left, #522914 0%, #faf0eb 49%);
+  /* IE10 */
+  width: 100%;
+}
+
+/* line 155, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_extrastyles.scss */
+.gradientfour {
+  background: -webkit-linear-gradient(left, #d6855c 0%, #faf0eb 49%);
+  /* Chrome 10+, Saf5.1+ */
+  background: -moz-linear-gradient(left, #d6855c 0%, #faf0eb 49%);
+  /* FF3.6+ */
+  background: -ms-linear-gradient(left, #d6855c 0%, #faf0eb 49%);
+  /* IE10 */
+  width: 100%;
+}
+
+/*footer*/
+/*  this code is from http://refills.bourbon.io/ - Patterns - Footers */
+/* line 6, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_footer.scss */
+.footer-2 {
+  background: #81a1b1;
+  display: inline-block;
+  padding: 1.5em;
+  width: 100%;
+}
+
+/* line 21, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_footer.scss */
+.footer-2 .footer-logo {
+  margin-bottom: 1em;
+  margin-right: 1em;
+}
+
+@media screen and (min-width: 53.75em) {
+  /* line 21, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_footer.scss */
+  .footer-2 .footer-logo {
+    float: left;
+    margin-bottom: 0;
+  }
+}
+
+/* line 31, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_footer.scss */
+.footer-2 .footer-logo img {
+  height: 1.6em;
+}
+
+/* line 35, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_footer.scss */
+.footer-2 ul {
+  line-height: 1.5em;
+  margin: 0 0 1em 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 53.75em) {
+  /* line 35, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_footer.scss */
+  .footer-2 ul {
+    float: left;
+    line-height: 1.8em;
+    margin-bottom: 0;
+    margin-left: 1em;
+  }
+}
+
+/* line 48, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_footer.scss */
+.footer-2 ul li {
+  list-style: none;
+  padding-right: 1em;
+}
+
+@media screen and (min-width: 53.75em) {
+  /* line 48, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_footer.scss */
+  .footer-2 ul li {
+    display: inline;
+    text-align: left;
+  }
+}
+
+/* line 58, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_footer.scss */
+.footer-2 ul li a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+/* line 62, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_footer.scss */
+.footer-2 ul li a:focus, .footer-2 ul li a:hover {
+  color: white;
+}
+
+@media screen and (min-width: 53.75em) {
+  /* line 68, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_footer.scss */
+  .footer-2 .footer-secondary-links {
+    float: right;
+  }
+}
+
+/* line 73, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_footer.scss */
+.footer-2 .footer-secondary-links li {
+  font-size: 0.8em;
+}
+
+/* line 77, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_footer.scss */
+.footer-2 .footer-secondary-links ul.footer-social {
+  margin: 1em 0 0 0;
+}
+
+@media screen and (min-width: 53.75em) {
+  /* line 77, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_footer.scss */
+  .footer-2 .footer-secondary-links ul.footer-social {
+    float: right;
+    margin-top: 0;
+  }
+}
+
+/* line 85, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_footer.scss */
+.footer-2 .footer-secondary-links ul.footer-social li {
+  float: left;
+  font-size: 1em;
+  line-height: 0;
+  margin: 0;
+  padding-right: 0.7em;
+}
+
+/* line 92, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_footer.scss */
+.footer-2 .footer-secondary-links ul.footer-social li:last-child {
+  padding-right: 0;
+}
+
+/* line 97, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_footer.scss */
+.footer-2 .footer-secondary-links ul.footer-social img {
+  height: 1.6em;
+  width: 1.6em;
+  opacity: 0.7;
+  padding: 1px;
+}
+
+/* line 103, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_footer.scss */
+.footer-2 .footer-secondary-links ul.footer-social img:focus, .footer-2 .footer-secondary-links ul.footer-social img:hover {
+  opacity: 1;
+}
+
+/* end of footer*/
+/*-- this code is from http://refills.bourbon.io/ - Components - Search bar */
+/* line 2, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_refills.scss */
+form.search-bar {
+  position: relative;
+}
+
+/* line 15, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_refills.scss */
+form.search-bar input[type=search] {
+  background-color: #b1d5e7;
+  border: 1px solid #b1d5e7;
+  box-sizing: border-box;
+  display: block;
+  font-size: 1em;
+  font-style: italic;
+  margin: 0;
+  margin-top: 1em;
+  padding: 0.5em 0.5em;
+  position: relative;
+  transition: border-color;
+  width: 100%;
+}
+
+/* line 31, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_refills.scss */
+form.search-bar button[type=submit] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  outline: none;
+  padding: 5px 10px;
+}
+
+/* line 36, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_refills.scss */
+form.search-bar button[type=submit] img {
+  height: 12px;
+  width: 12px;
+  opacity: 0.7;
+}
+
+/* end of Search bar  */
+/*this code is from http://refills.bourbon.io/ - Components - Hover Tile Animation*/
+/* line 45, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_refills.scss */
+.hover-tile-outer {
+  background: url("http://images.freeimages.com/images/previews/5f1/another-sky-1541404.jpg");
+  background-color: #ff5500;
+  background-position: top;
+  background-size: cover;
+  border: 2px solid #00aaff;
+  cursor: pointer;
+  height: 10em;
+  margin-bottom: 1.5em;
+}
+
+@media screen and (min-width: 40em) {
+  /* line 45, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_refills.scss */
+  .hover-tile-outer {
+    width: 100%;
+  }
+}
+
+/* line 65, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_refills.scss */
+.hover-tile-outer .hover-tile-container {
+  height: 10em;
+  overflow: hidden;
+}
+
+/* line 70, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_refills.scss */
+.hover-tile-outer .hover-tile-container:hover > .hover-tile {
+  transform: translate(0, -100%);
+}
+
+/* line 74, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_refills.scss */
+.hover-tile-outer .hover-tile {
+  background: inherit;
+  color: #00aaff;
+  height: inherit;
+  overflow: hidden;
+  padding: 1.5em;
+  transition: all 0.2s ease-in-out;
+}
+
+/* line 83, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_refills.scss */
+.hover-tile-outer .hover-tile-hidden {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* line 86, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_refills.scss */
+.hover-tile-outer .hover-tile-hidden p {
+  color: rgba(255, 85, 0, 0.9);
+  line-height: 1.5em;
+  text-align: center;
+}
+
+/* line 92, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_refills.scss */
+.hover-tile-outer .hover-tile-hidden h4 {
+  margin: 0 0 0.5em 0;
+}
+
+/*end of Hover Tile Animation*/
+/* line 2, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_loop.scss */
+.colorloop:nth-child(3n+1) {
+  background: #d6855c;
+}
+
+/* line 2, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_loop.scss */
+.colorloop:nth-child(3n+2) {
+  background: #b1d5e7;
+}
+
+/* line 2, D:/WORK/Harvard/II -Modern and Mobile Front-End Web Design/assignments/A2/bh.scss/_loop.scss */
+.colorloop:nth-child(3n+3) {
+  background: #296989;
+}
+
+/*# sourceMappingURL=../bh.css/bh_styles.map */

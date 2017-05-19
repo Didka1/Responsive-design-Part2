@@ -1,0 +1,38 @@
+//my global variables 
+// main colors
+//generated with Natalya Shelburne's Sass formula
+$first-color:hsl(20, 100%, 50%);
+//that is $second-color
+//generated with Natalya Shelburne's Sass formula 
+$second-color:complement($first-color);
+// using built-in Sass functions
+$third-color:mix($first-color,$second-color,$weight:80%);
+$fourth-color:mix($first-color,$second-color,$weight:23%);
+// my neutrals
+// using built-in Sass functions
+//orange
+$first-neutral:lighten($third-color, 45%);
+$second-neutral:lighten($third-color, 35%);
+$third-neutral:lighten($third-color, 10% );
+$fourth-neutral:darken($third-color, 30% );
+//blue
+$fifth-neutral:lighten($fourth-color, 30%);
+$sixth-neutral:darken($fourth-color, 15%);
+$seventh-neutral:darken($fourth-color, 45%);
+//loop
+$loopcolors:$third-neutral, $fifth-neutral, $sixth-neutral;
+//gradients
+$first-gradient:$third-neutral;
+$second-gradient:$third-neutral;
+$third-gradient:$fourth-neutral;
+$fourth-gradient:$third-neutral; 
+//commonly used measurements
+$standard-padding:5%;
+$smallest-padding:0%;
+$smallest-margin:0%;
+$standard-margin:1%;
+$base-font-size: 16px;
+//media query values
+$small: 43.813em; //701px
+$smallest: 43.750em;//700px
+$big: 75.000em; //1200px

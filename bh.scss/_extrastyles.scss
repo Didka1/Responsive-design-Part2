@@ -1,0 +1,157 @@
+/*text and pictures extra styles */
+      
+h3 {
+color:$seventh-neutral;    
+margin: 0.700em;
+}
+      
+p {
+text-align: justify;
+margin: 0em 0.625em 0 0.625em;
+padding:$standard-padding;
+}
+.colorbox{
+margin-top: $standard-margin;
+padding: $standard-padding;
+}
+.colorloop{
+border-radius:0.8em;    
+list-style-type: none;
+padding: $standard-padding;
+margin-top: $standard-margin;    
+}      
+.advisetext,
+.freshtext {
+float: right;
+padding-left: $smallest-padding;
+margin-left: $smallest-margin;
+}
+      
+p.talkingtext {
+display: inline;
+float: right;
+ } 
+      
+.continueLink {
+color: $fourth-neutral;
+ }
+      
+a:hover {
+color: $sixth-neutral;
+ }
+/* nesting*/
+ .quote {
+margin: 30% 15% 15% 5%;
+padding: 5%;
+border: 0.063em solid $third-neutral{
+        radius: 1.250em;
+         };
+background-color: $third-neutral;
+-webkit-box-shadow: 40px 38px 84px 0px $third-neutral;
+-moz-box-shadow: 40px 38px 84px 0px $third-neutral;
+box-shadow: 40px 38px 84px 0px $third-neutral;
+ }
+.mexicanmask, .girraffes{
+float: left;
+padding-left: $standard-padding;
+width: auto;
+max-width: 100%;
+}
+div img {
+width: 100%;
+max-width: 150px;
+border-radius: 0.625em;
+padding: 2%;
+}
+i{
+margin-right: 3%;
+}
+
+
+/* h2/3/4 styles*/
+// my extend
+//my second font for the headings,cursive 
+.headings-style{
+color:$seventh-neutral;     
+font-family: 'Lemonada', cursive;
+float: left;
+width: 100%;
+}
+
+h1 a {
+@extend.typescalingbig;    
+text-decoration: none;
+color: $third-neutral;
+background-color: $fifth-neutral;
+padding: 0.3em 0.5em 0.5em 0.5em;
+margin: 1.5em;     
+border: 0.063em solid $fifth-neutral{
+        radius: 1em;
+        };
+opacity: 0.6;
+filter: alpha(opacity=60);
+          
+        &:hover {
+        color: $third-neutral;
+            }
+}
+header{    
+background: url(http://happy-live.free.bg/spheres1.jpg ) no-repeat;
+width: 100%;
+height: 139px;
+margin-bottom: 1em;
+}
+      
+h2{
+@extend .headings-style;  
+// bourbon - Border Radius     
+@include border-top-radius(3.125em);
+padding: 0.625em 0.625em 0.625em 1.250em;
+}
+h3{
+@extend .headings-style;
+font-size: $base-font-size;
+text-align: left;
+margin: 1em;
+    
+}
+h4 {
+@extend .headings-style;
+padding: 0.8em;
+margin-bottom: 1em;    
+border: 0.063em solid $second-neutral{
+      radius: 2em;
+      };
+   
+text-align: center;  
+}
+// bourbon Tint & Shade
+//bourbon border radius
+
+.morecolor{
+    background: tint($second-neutral, 10%);
+    padding:$standard-padding; 
+    @include border-top-radius(1em);
+    @include border-bottom-radius(1em);
+    
+}
+.extracolor{
+    background: shade( $first-neutral, 10%);
+    padding:$standard-padding;
+   @include border-top-radius(2em);
+   @include border-bottom-radius(2em);
+}
+/* mixin include */      
+ 
+.gradientone{
+@include headings-gradient($first-gradient, $first-neutral);
+}
+.gradienttwo{
+@include headings-gradient($second-gradient, $first-neutral);
+}
+.gradientthree {
+ @include headings-gradient($third-gradient, $first-neutral);
+}
+.gradientfour {
+@include headings-gradient($fourth-gradient, $first-neutral);
+      }

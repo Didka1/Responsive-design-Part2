@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+        <meta charset="utf-8">
+        <title>Be Happy - home</title>
+        <meta name="viewport" content="width=device-width">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab:700" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css?family=Lemonada:300" rel="stylesheet">   <link rel="stylesheet" href="bh.css/bh_styles.css">
+        <script src=" https://use.fontawesome.com/216ba9428f.js"></script>
+        <script>
+            // Picture element HTML5 shiv
+            document.createElement("picture");
+        </script>
+        <script src="picturefill.min.js" async></script>
+</head>
+
+<body>
+     <div class="wrapper">
+     <div class="row">
+            <header class="standartcol">
+                <h1><a href="http://happy-live.free.bg/spheres1.jpg">Be happy! Live free!</a></h1>
+            </header>
+     </div>
+
+
+     <nav>
+     <ul class="topnav" id="myTopnav">
+                <li><a class="active" href="bh_index.html">Home</a></li>
+                <li><a href="bh_about.html">About</a></li>
+                <li><a href="#">Advices</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="bh_contacts.html">Contacts</a></li>
+                <li class="icon">
+                    <a href="javascript:void(0);" style="font-size:15px;" onclick="myFunction()">☰</a>
+                </li>
+     </ul>
+     </nav>
+
+
+
+     <div class="row">
+<!-- this code is from http://refills.bourbon.io/ - Components - Search bar --> 
+     <form class="search-bar" role="search">
+                <input type="search" placeholder="Enter Search" />
+                <button type="submit">
+                <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/search-icon-black.png" alt="Search Icon">
+                </button>
+     </form> 
+<!--end of Search bar -->
+               <h2 class="gradienttwo">Want to find us?</h2>
+     </div>
+<!-- row 1, 4 individual boxes, 4 columns -->
+     <section class="row sameHeights">
+     <div class="contactscol-4" data-key="sameHeights">
+                <h4 class="gradientfour">Online?</h4>
+                <div class="extracolor">
+                <p><i class="fa fa-envelope" aria-hidden="true"></i> Email - bh.@gmail.com</p>
+                <p><i class="fa fa-facebook-square" aria-hidden="true"></i>Facebook - BeHappy</p>
+                <p><i class="fa fa-twitter-square" aria-hidden="true"></i> Twitter - TwitBeHappy</p>
+                </div>
+    </div>
+    <div class="contactscol-4" data-key="sameHeights">
+                <h4 class="gradientfour">In the real world?</h4>
+                <p><i class="fa fa-map-marker" aria-hidden="true"></i> Bulgaria, Sofia, Rakovski str. N=1 </p>
+                <p><i class="fa fa-phone-square" aria-hidden="true"></i> 0111222333444
+                </p>
+    </div>
+    <div class="contactscol-4" data-key="sameHeights">
+                <h4 class="gradientfour">And we are?</h4>
+<!-- my loop -->
+                 <ul class="colorbox">      
+                 <li class="colorloop">Diana Ivanova</li>
+                 <li class="colorloop">Petar Petrov</li>
+                 <li class="colorloop">Ivan Ivanov</li>      
+                 </ul>
+    </div>
+    <div class="contactscol-4" data-key="sameHeights">
+                <h4 class="gradientfour">And please... </h4>
+                <p class="morecolor">don't forget to smile, it is important for your health and soul!</p>
+    </div>
+    </section>
+
+<!-- this code is from http://refills.bourbon.io/ - Patterns - Footers -->
+    <div class="wrapper-for-content-outside-of-footer">
+    <footer class="footer-2" role="contentinfo">
+ 
+                <ul>
+                      <li><a href="javascript:void(0)">About</a></li>
+                      <li><a href="javascript:void(0)">Contact</a></li>
+                      <li><a href="javascript:void(0)">Products</a></li>
+                </ul>
+
+    <div class="footer-secondary-links">
+                <ul>
+                    <li><a href="javascript:void(0)">Terms and Conditions</a></li>
+                    <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                </ul>
+                <ul class="footer-social">
+                    <li><a href="javascript:void(0)">
+                      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/facebook-logo-circle.png" alt="Facebook">
+                      </a></li>
+                    <li><a href="javascript:void(0)">
+                      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/twitter-logo-circle.png" alt="Twitter">
+                    </a></li>
+                    <li><a href="javascript:void(0)">
+                      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/youtube-logo-circle.png" alt="YouTube">
+                    </a></li>
+                </ul>
+    </div>
+    </footer>
+    </div>
+<!--end of footer -->
+    </div>
+                    <script src="bh.js"></script>
+                    <script type="text/javascript">
+                        if ('addEventListener' in window) {
+                            window.addEventListener('resize', function () {
+                                sameHeights();
+                            });
+                            window.addEventListener('load', function () {
+                                sameHeights();
+                            });
+                        }
+                    </script>
+</body>
+</html>

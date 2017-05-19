@@ -1,0 +1,258 @@
+
+/* grid styles*/
+      
+.row::after {
+content: "";
+display: table;
+clear: both;
+      }
+      
+
+.orange,
+.green,
+.blue {
+      float: left;
+      min-height: 1px;
+      width: 98%;
+      }
+.standartcol{
+      float: left;
+      min-height: 1px;
+      width: 100%;
+}     
+/* using built-in Sass functions */
+/*nesting */
+[class*='col-'] {
+float: left;
+margin: 1% 1% 1% 1%;
+min-height: 1px;
+color: $seventh-neutral;    
+border: 0.063em solid lighten($second-neutral, 5%){
+        radius: 1.250em;
+              };
+background-color:transparentize($second-neutral,0.5 );
+ }
+      
+.col-6 {
+width: 14.6%;
+ }
+      
+.col-2 {
+width: 48%;
+}
+      
+.col-1 {
+padding-top: 0.625em;
+width: 98%;
+}
+      
+.col-3 {
+width: 31%;
+}
+ /* grid about page*/
+/*nesting */
+[class*='aboutcol-'] {
+float: left;
+margin: 1% 1% 1% 2%;
+padding:$standard-padding;
+min-height: 1px;
+border: 0.063em solid{
+        color: lighten($second-neutral, 5%);
+        radius: 1.250em;
+              }
+}
+      
+.aboutcol-2 {
+width: 25%;
+}
+      
+.aboutcol-1 {
+width: 40%;
+}
+/* grid contacts page */
+/*nesting */
+[class*='contactscol-'] {
+float: left;
+margin: 2% 0% 5% 1%;
+padding:$standard-padding;
+min-height: 1px;
+border: 0.063em solid $sixth-neutral{
+        radius: 1.250em;
+        }
+}
+//bourbon Border color and Tint & Shade
+//bourbon Border width
+
+.contactscol-4 {
+width: 23%;
+@include border-width(0.8em 1em null null);
+@include border-color($fifth-neutral shade($fifth-neutral, 40%)  null $sixth-neutral);   
+}
+      
+/* media queries*/
+      
+@media (min-width:$small) and (max-width:$big) {
+.col-2,
+.col-6,
+.col-1,
+.col-3 {
+        width: 100%;
+}
+.aboutcol-2,
+.aboutcol-1,
+.contactscol-4 {
+         width: 97%;
+ }
+}
+
+
+@include mq($smallest) {
+[class*="col-"] {
+width: 92%;
+}
+}
+      
+/* media queries main image, nav, h1 and some text*/
+      
+      
+@include mq($smallest) { 
+  /* clearing hack */
+  .row:before, 
+  .row:after {
+  content:"";
+  display: table;
+  clear:both;
+  } 
+header{    
+background: url(http://happy-live.free.bg/spheres710.jpg ) no-repeat;
+width: 100%;
+height: 139px;
+margin-bottom: 1em;
+}
+// my extend 
+//typescaling    
+.typescalingsmall {
+font-size: 1em;
+line-height: 1.6; 
+}
+.typescalingsmall-h{
+font-size: 1.3em;
+line-height: 1.2;        
+}    
+/* nesting*/
+h1 a {  
+font-size: 0.7em;
+line-height: 1.3;   
+text-decoration: none;
+color: $third-neutral;
+background-color: $fifth-neutral;
+padding: 0.3em 0.5em 0.5em 0.5em;
+margin: 0.3em;    
+border: 0.063em solid $fifth-neutral{
+        radius: 1em;
+        };
+opacity: 0.6;
+filter: alpha(opacity=60);
+          
+        &:hover {
+        color: $third-neutral;
+            }
+}
+
+.advisetext,
+.freshtext {
+@extend .typescalingsmall;    
+text-align: left;
+width: 40%;
+ }
+ p.talkingtext {
+@extend .typescalingsmall;     
+width: 40%;
+padding:0px 3px 3px 2px;
+margin: $smallest-margin;
+text-align: left;
+}
+.edpic{
+margin-left: 20%;
+}
+#edtext {
+@extend .typescalingsmall;
+float: right;
+text-align: justify;
+width: 60%;
+margin: $standard-margin;
+}
+h2,h3{
+@extend.typescalingsmall-h;    
+    } 
+h4{
+ @extend.typescalingsmall;      
+    }   
+ }
+ 
+     
+
+@include mq($big)  {
+header {
+background: url(http://happy-live.free.bg/spheres1.jpg) no-repeat;
+width: 100%;
+height: 150px;
+margin-bottom: 1em;    
+ }
+// my extend
+//typescaling
+.typescalingbig {
+font-size: 1.2em;
+line-height: 1.5; 
+} 
+.typescalingbig-h{
+ font-size: 1.6em;
+line-height: 1.3;        
+    }    
+ h1 a {
+@extend.typescalingbig-h;   
+text-decoration: none;
+color: $third-neutral;
+background-color: $fifth-neutral;
+padding: 0.3em 0.5em 0.5em 0.5em;
+margin: 1.5em;     
+border: 0.063em solid $fifth-neutral{
+        radius: 1em;
+        };
+opacity: 0.6;
+filter: alpha(opacity=60);
+          
+        &:hover {
+        color: $third-neutral;
+            }
+}
+.advisetext,
+.freshtext {
+@extend.typescalingbig;   
+text-align: left;
+width: 50%;
+}
+p.talkingtext {
+@extend.typescalingbig;    
+width: 100%;
+padding:$standard-padding;
+margin: $standard-margin;
+text-align: left;
+}
+#edtext {
+@extend.typescalingbig;    
+float: right;
+text-align: left;
+width: 80%;
+margin: $standard-margin;
+padding: $standard-padding;
+}
+h2,h3{
+@extend.typescalingbig-h;   
+    } 
+    h4{
+@extend .typescalingbig;
+    }
+}
+
+

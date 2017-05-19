@@ -1,0 +1,76 @@
+/* Border box declaration */
+/*main styles */
+      
+ html {
+ box-sizing: border-box;
+}
+      
+ *,
+ *:before,
+ *:after {
+ box-sizing: inherit;
+ }
+ //my font for the main texts, serif and easy to be read at any screen 
+//Incorporate my type scaling 
+ body {   
+ font-size: 100%;     
+ font-family: 'Josefin Slab', serif;
+ margin:$smallest-margin;
+}
+
+body, p, h1, h2, h3, h4, li {
+    font-size-adjust: 0.4;
+}
+.wrapper {
+width: 98%;
+max-width: 1200px;
+margin: $smallest-margin auto;
+float: none;
+background-color:$first-neutral;
+      }
+/*navigation */
+/* 2 levels nesting */
+ul.topnav {
+    width: 100%;
+    list-style-type: none;
+    margin: $smallest-margin;
+    padding: $smallest-padding;
+    overflow: hidden;
+    background-color: $fifth-neutral;
+    // bourbon - Border Radius     
+    @include border-top-radius(3.125em);
+    li {
+    float: left;
+    margin: 0.8em 1em 0.8em 1em ;
+
+
+                 a {
+                    display: inline-block;
+                    color: $seventh-neutral;
+                    text-align: center;
+
+                    text-decoration: none;
+                    transition: 0.3s;
+                    font-size: pxtoem(20px);
+                    background-color:$second-neutral;
+                    opacity: 0.6;
+                    filter: alpha(opacity=60);
+                    padding: 0.5em;
+                    margin: 0.3em 0.3em 0.3em 1em;
+                    border: 0.063em solid $second-neutral{
+                            radius: 3.125em;
+                          }
+                 &:hover {
+                    background-color: $first-neutral;
+                    border: 0.063em solid $first-neutral{
+                            radius: 3.125em;
+                     }
+                         }
+                  }
+      }
+// that is part of my hamburger button and should be not nested in li 
+    li.icon {
+    display: none;
+        }
+
+      }

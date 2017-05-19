@@ -1,0 +1,7 @@
+@for $i from 1 through length($loopcolors) {
+    .colorloop:nth-child(#{length($loopcolors)}n+#{$i}) {
+        background: nth($loopcolors, $i)
+            
+    }
+}
+
