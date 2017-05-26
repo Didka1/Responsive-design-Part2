@@ -17,22 +17,22 @@ The main goal of this small project is to demonstrate the use of SASS, Bourbon, 
  *Partial Files: _variables.scss 
  *Starting Line: 1 
  
- *Custom mixin: 
+ * Custom mixin: 
  
  *Partial Files: _mixinsfunction.scss 
  *Starting Line: 8 
  
- *Extend: 
+ * Extend: 
  
  *Partial Files: _mediaquery.scss/ _extrastyles.scss 
  *Starting Line: 132 – 164,169,179,186,189, 202- 213,231, 326,243. 251,254/ 72-106, 112, 119 
  
- *Nesting: 
+ * Nesting: 
  
  *Partial Files: _mainstylenav.scss 
  *Starting Line: 32 
  
- *Built-in Sass Functions: 
+ * Built-in Sass Functions: 
  
  *Partial Files: _variables.scss; / _mediaquery.scss; 
  *Starting Line: 8-21; / 23; 
@@ -42,9 +42,9 @@ The main goal of this small project is to demonstrate the use of SASS, Bourbon, 
  *Partial Files: _mixinsfunction.scss; 
  *Starting Line: 17
  
- *About the Bourbon part(bh.scss):
+ * About the Bourbon part(bh.scss):
  
- *Mixins, functions, add-ons, and/or settings from Bourbon: 
+ * Mixins, functions, add-ons, and/or settings from Bourbon: 
  
  *Partial Files: _extrastyles.scss 
  *Starting/Finishing Line: 108, 134,135,141,142 
@@ -53,25 +53,25 @@ The main goal of this small project is to demonstrate the use of SASS, Bourbon, 
  *Partial Files: _mediaquery.scss 
  *Starting/Finishing Line: 88,89
  
- *Components and/or patterns from Refills:
+ * Components and/or patterns from Refills:
  
  *Partial Files: _refills.scss 
  *Starting Files/Finishing Line: 1-43 
  *Partial Files: _refills.scss 
  *Starting/Finishing Line: 44-100
 
- *About the font faces (either in HTML or in Sass): 
+ * About the font faces (either in HTML or in Sass): 
  
   *Line#1: HTML -8  Sass- _mainstylenav.scss - 17
   *Line#2: HTML -9  Sass- _extrastyles.scss - 76
  
- *About type scaling:
+ * About type scaling:
  
- *Line#1: _mediaquery.scss -134-140(extend 164,169,179,186,189), 144,145,
- *Line#2: _mediaquery.scss -204-210(extend 213,231,236,243,251,254)
+ *Line: _mediaquery.scss -134-140(extend 164,169,179,186,189), 144,145,
+ *Line: _mediaquery.scss -204-210(extend 213,231,236,243,251,254)
 
-*About color scheme:
-Line#1: _variables.scss 2-21
+* About color scheme:
+Line: _variables.scss 2-21
 ## External resources:
 *pictures: http://www.freeimages.com/
 
