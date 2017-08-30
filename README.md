@@ -1,11 +1,5 @@
 # Responsive-design-Part2
 
-
-## Links to the web pages:
-* http://happy-live.free.bg/bh_index.html - Homepage;
-* http://happy-live.free.bg/bh_about.html - About us page;
-* http://happy-live.free.bg/bh_contacts.html - Contacts page;
-
 ## What is the goal of the project?
 The main goal of this small project is to demonstrate the use of SASS, Bourbon, typefaces, type scaling and color schemes.  I use the code from the Responsive-design-Part1 to begin and do all of this stuff. 
 
